@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url("../assets/BG.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Navbar */
+body nav {
+  position: fixed;
+  background-color: #222831;
+  width: 100%;
+  height: 8%;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  color: #f05454;
+  font-size: 24px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f05454;
+  font-weight: 600;
+}
+
+nav i {
+  font-size: 20px;
+  color: #f05454;
+  margin-right: 4px;
+}
+
+/* Login Form */
+.login {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login ::placeholder {
+  color: rgba(240, 84, 84, 0.8);
+}
+
+.login form {
+  background-color: #dddddd;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  border-radius: 10px;
+  padding: 28px 40px;
+  color: #f05454;
+}
+
+.login form h1 {
+  text-align: center;
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.login form p {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 20px;
+}
+
+.login form p a {
+  color: #f05454;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.login form input {
+  height: 50px;
+  font-size: 24px;
+  padding: 0 24px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 2px solid #f05454;
+  color: #f05454;
+  background-color: transparent;
+}
+
+.login form input:focus {
+  border: 3px solid #f05454;
+  outline: none;
+}
+
+.login form .inputPass {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login form .inputPass input {
+  width: 89%;
+}
+
+.login form .inputPass button#seePass {
+  width: 10%;
+  margin: 0;
+  color: #f05454;
+  background-color: transparent;
+}
+
+.login form .inputPass button#seePass:hover {
+  color: #dddddd;
+  background-color: #f05454;
+}
+
+.login form .inputPass button#seePass:focus {
+  outline: none;
+}
+
+.login form .rememberMe {
+  display: flex;
+  align-items: center;
+}
+
+.login form .rememberMe input {
+  height: 20px;
+  width: 20px;
+  background-color: #dddddd;
+}
+
+.login form .rememberMe label {
+  font-size: 20px;
+  margin-left: 8px;
+}
+
+.login form button {
+  color: white;
+  background-color: #f05454;
+  border: 2px solid #f05454;
+  border-radius: 5px;
+  margin-top: 24px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.login form button:hover {
+  color: #f05454;
+  background-color: #dddddd;
+  border: 2px solid #f05454;
+  transition: 0.3s;
+}
