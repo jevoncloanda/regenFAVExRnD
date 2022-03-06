@@ -18,7 +18,7 @@
 <body>
     <!-- NavBar -->
     <nav>
-        <a href="#">
+        <a href="{{route('getLandingPage')}}">
             <i class="fa-solid fa-arrow-left-long"></i>
             Home
         </a>
