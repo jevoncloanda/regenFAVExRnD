@@ -19,7 +19,7 @@ class IsAdminMiddleware
     {
         $user = Auth::user();
         if($user->username != 'admin')
-            return redirect(route('getLandingPage'));
+            return redirect(route('getAdminDashboard'));
         return $next($request);
     }
 }

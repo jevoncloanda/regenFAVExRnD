@@ -22,7 +22,7 @@
         <label class="logo">MyEvent</label>
         <ul class="navul-mid">
             <li class="home"><a href="{{route('getLandingPage')}}">Home</a></li>
-            <li class="event-gallery"><a href="#">Event Gallery</a></li>
+            <li class="event-gallery"><a href="{{route('getGallery')}}">Event Gallery</a></li>
             <li class="dashboard"><a href="{{route('getAdminDashboard')}}">Dashboard</a></li>
         </ul>
 

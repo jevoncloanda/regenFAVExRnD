@@ -19,7 +19,7 @@
             <label class="logo">MyEvent</label>
             <ul class="navul-mid">
                 <li class="home" ><a href="#">Home</a></li>
-                <li class="event-gallery"><a href="#">Event Gallery</a></li>
+                <li class="event-gallery"><a href="{{route('getGallery')}}">Event Gallery</a></li>
             </ul>
         </nav>
         @endguest
@@ -31,7 +31,7 @@
             <label class="logo">MyEvent</label>
             <ul class="navul-mid">
                 <li class="home" ><a href="#">Home</a></li>
-                <li class="event-gallery"><a href="#">Event Gallery</a></li>
+                <li class="event-gallery"><a href="{{route('getGallery')}}">Event Gallery</a></li>
                 <li class="view-ticket"><a href="#">View Ticket</a></li>
             </ul>
 

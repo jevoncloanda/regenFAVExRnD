@@ -12,4 +12,9 @@ class Event extends Model
     protected $fillable = [
         'name', 'category', 'description', 'date', 'price', 'location', 'image',
     ];
+
+    public function user()
+    {
+        return $this->belongsToMany(User::class);
+    }
 }

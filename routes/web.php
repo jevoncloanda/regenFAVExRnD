@@ -25,6 +25,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [Controller::class, 'getLandingPage'])->name('getLandingPage');
 
+Route::get('/gallery', [Controller::class, 'getGallery'])->name('getGallery');
+
 Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

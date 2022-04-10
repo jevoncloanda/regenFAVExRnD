@@ -22,4 +22,10 @@ class Controller extends BaseController
         $events = Event::all();
         return view('admin.dashboard', ['events' => $events]);
     }
+
+    public function getGallery()
+    {
+        $events = Event::all();
+        return view('eventgallery', ['events' => $events]);
+    }
 }
